@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE manifest SYSTEM "./manifest.dtd">
+
+<manifest>
+    <remote name="github" fetch="https://github.com/Turiok/" />
+    <default remote="github" revision="master" sync-j="4"/>
+
+    <project name="stackedit-docker.git" path="stackedit-docker" groups="Web, docker"></project>
+    <project name="rpi-darkstat.git" path="rpi-darkstat" groups="docker, network"></project>
+    <project name="Network-MultiTool.git" path="network-multiTool" groups="network"></project>
+</manifest>
